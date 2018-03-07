@@ -5,6 +5,8 @@ const Sequelize = require('sequelize')
 const Op = Sequelize.Op
 const port = process.env.PORT || 3000
 
+
+
 const app = express()
   .use(bodyParser.json())
 
